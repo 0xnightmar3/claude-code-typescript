@@ -3,7 +3,7 @@
   "description": "Example claude code tool usage",
   "type": "module",
   "scripts": {
-    "dev": "bun run app/main.ts"
+    "dev": "tsc && node dist/main.js"
   },
   "dependencies": {
     "openai": "^6.16.0"
