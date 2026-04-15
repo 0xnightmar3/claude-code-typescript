@@ -1,0 +1,14 @@
+{
+  "name": "claude-code",
+  "description": "Example claude code tool usage",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run app/main.ts"
+  },
+  "dependencies": {
+    "openai": "^6.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0"
+  }
+}
